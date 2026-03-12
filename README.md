@@ -20,11 +20,11 @@ Go to Definition following alias redirections.
 
 Install this extension from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=antfu.goto-alias).
 
-Set `editor.gotoLocation.multipleDefinitions` to `goto` in your VS Code settings for the best experience.
+Set `editor.gotoLocation.multipleDefinitions` to `goto` (directly jump into the primary result in definitions) or `gotoAndPeek` (also open the peek view to allow switch between definitions) in your VS Code settings for the best experience.
 
 ```json
 {
-  "editor.gotoLocation.multipleDefinitions": "goto"
+  "editor.gotoLocation.multipleDefinitions": "gotoAndPeek"
 }
 ```
 
